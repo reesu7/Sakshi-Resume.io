@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Rawat - Resume</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f6d365, #fda085);
+            color: #333;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+        }
+        .left-column {
+            width: 35%;
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            margin-bottom: 1rem;
+        }
+        .left-column h3 { font-size: 1.2rem; margin-bottom: 1rem; }
+        .left-column ul { list-style: none; padding: 0; }
+        .left-column ul li { margin-bottom: 0.5rem; font-size: 1rem; }
+        .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
+        .tag {
+            background: #fff;
+            color: #2980b9;
+            padding: 0.5rem 1rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            border: 1px solid #2980b9;
+        }
+        .right-column {
+            width: 65%;
+            padding: 2rem;
+            background: #fff;
+        }
+        .right-column h2 { font-size: 1.8rem; color: #3498db; margin-bottom: 1rem; }
+        .right-column p { font-size: 1rem; line-height: 1.6; color: #555; }
+        .right-column h3 { font-size: 1.5rem; color: #3498db; margin-bottom: 1rem; border-bottom: 2px solid #3498db; padding-bottom: 0.5rem; }
+        .education p strong { color: #333; }
+        @media (max-width: 768px) {
+            .container { flex-direction: column; }
+            .left-column, .right-column { width: 100%; }
+            .left-column { border-radius: 10px 10px 0 0; }
+            .right-column { border-radius: 0 0 10px 10px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Column -->
+        <div class="left-column">
+            <img src="/dp1.jpg" alt="Sakshi Rawat" class="profile-pic">
+            <h3>📌 Contact</h3>
+            <ul>
+                <li>📧 rawatsakshi2001@email.com</li>
+                <li>📱 7017366973</li>
+                <li>📍 Kotdwar, Uttarakhand</li>
+            </ul>
+            <h3>🛠 Skills</h3>
+            <div class="tags">
+                <span class="tag">Team Work</span>
+                <span class="tag">Leadership</span>
+                <span class="tag">Problem Solving</span>
+                <span class="tag">Effective Communication</span>
+                <span class="tag">Decision Making</span>
+            </div>
+            <h3>🎯 Interests</h3>
+            <div class="tags">
+                <span class="tag">Drawing</span>
+                <span class="tag">Painting</span>
+                <span class="tag">Dancing</span>
+                <span class="tag">Singing</span>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column">
+            <h2>Sakshi Rawat</h2>
+            <p>Student of Bachelor of Education</p>
+            <div class="about">
+                <h3>📝 About Me</h3>
+                <p>I am a dedicated and passionate individual pursuing a Bachelor of Education from Bhakt Darshan P.G College Jaiharikhal Lansedowne, with a strong interest in teaching and learning methodologies. I have a creative mindset and enjoy exploring new ways to engage students in the learning process. My skills in leadership, teamwork, and effective communication enable me to collaborate effectively with peers and mentors. I am also deeply interested in extracurricular activities like drawing, painting, dancing, and singing, which help me maintain a balanced and holistic approach to life.</p>
+            </div>
+            <div class="education">
+                <h3>🎓 Education</h3>
+                <p><strong>Bachelor of Education (B.Ed)</strong><br>
+                Bhakt Darshan P.G College Jaiharikhal Lansedowne (2023 - Present)<br>
+                Percentage: Pursuing</p>
+                <p><strong>Graduation (BA English)</strong><br>
+                Sri Dev Suman University (2020 - 2023)<br>
+                Percentage: 67%</p>
+                <p><strong>12th Grade (Senior Secondary)</strong><br>
+                CBSE Board, DAV Public School (2018 - 2020)<br>
+                Percentage: 75%</p>
+                <p><strong>10th Grade (Secondary)</strong><br>
+                CBSE Board, Blooming Value Public School (2017 - 2018)<br>
+                Percentage: 88%</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
